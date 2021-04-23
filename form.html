@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <style> 
+    input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+    form { 
+      margin: 0 auto; 
+      width:250px;
+    }
+    </style>
+</head>
+<body>
+  <form method="post" accept-charset="utf-8"
+        enctype="application/x-www-form-urlencoded">
+
+      <label for="name">Name (less then 20)</label><br>
+      <input id="name" name="name" type="text" value="" autofocus/><br>
+      <label for="age">Age</label><br>
+      <input id="age" name="age" type="text" value=""/><br>
+      <label for="city">City (less then 12)</label><br>
+      <input id="city" name="city" type="text" value=""/><br>
+
+      <input type="submit" value="register"/>
+  </form>
+</body>
